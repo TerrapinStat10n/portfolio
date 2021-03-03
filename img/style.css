@@ -1,0 +1,18 @@
+/******************************
+
+COMMON
+
+******************************/
+
+body {
+    font-family: "monospace", sans-serif;
+}
+
+.font-primary {
+    color: #00ABAE;
+}
+
+.title-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
