@@ -74,11 +74,14 @@ ABOUT
 }
 
 #about .email {
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 14px;
     color: #6fcf3b;
 }
-
+a {
+    text-decoration: none;
+    color: #6fcf3b;
+}
 #about .icons {
     margin-top: 20px;
     font-size: 30px;
@@ -88,7 +91,11 @@ ABOUT
     color: #9b3bcf;
 }
 
-
+#type {
+    color: silver;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
 /******************************
 
 PROJECTS
@@ -115,3 +122,37 @@ PROJECTS
 #projects .row {
     margin-bottom: 20px;
 }
+
+
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
